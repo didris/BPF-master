@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Deema\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-4362cacdf7b2064111e0b92dc61580870ff1ba73.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-9eaa125729f2c76e71d8a083b35d7b0b4fcc667e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-caf2b2dbe71ff6b16cacc62cb638fc3ab8bbf5d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-e4c7b2b5acea75a251db715a7dec568c04c53fc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-287f5ccb2b810a79785669576b283c63f0bf0135.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-1745616b7d360027d3af04ff44fe591150d194fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-19ac0afd908a4cb435c1d12db51ad6b38d1cf9b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-4405e64740abfa7cfa40ce69ca79779a0474230f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-60c609768071dca1ee025a02b7398face0305aac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\volley-9e9b1e7f8d29d0ee5fabd71312c4133a5c1980be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-dc8ab041c14dd9ca03eb332cf0cbeea389a4bc27.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-322826cbaeed23bb1747762b72504a5ad844d16a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-7b08174fb6a68d6246bc33dbe956a4bb1519cf53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-d96598328bd53c019dbedfc08cc9088cbb91f49e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-604da362fcfbed1fb609572b11ccbf5d737c5854.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-b189eed654ebc11542eb96fb6e85af04cac6a92b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-cea4da8fd836280e31ccce1ca5a79c97dd4d621b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-d790ba9cd54aa94eaf3017cc07c3e5f2df5b030f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-d865edd6475baa013030c7c62bf08b463d12672a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-6be2a1c4e381ee4dbf4a39c8f796e52fca019faf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-d9d7f90833289b965dded104d46e675f24ae4b21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-105b0122929550936b4966d5624ea513830b0a65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-9f789a99757f8e014edc6e167d9ea0c1da620f19.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Deema\Downloads\BPF\BPF\app\build\intermediates\pre-dexed\debug\classes-2ee6476e1f06f1d3319981ce10e72b2032a908be.jar" />
+    </item>
+
+</items>

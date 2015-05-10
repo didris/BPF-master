@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BPF</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_scan">SCAN BARCODE</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_all_products">AllProductsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="title_activity_jsonparser">JSONParser</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="title_activity_new_product">NewProductActivity</string>
+    <string name="title_activity_scan_barcode">ScanBarcode</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_search_by_barcode">SearchByBarcode</string>
+    <string name="title_activity_category_main">CategoryMain</string>
+
+</resources>

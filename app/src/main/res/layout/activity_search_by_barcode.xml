@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scan"
+            android:text="Scan Barcode"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStatus"
+        android:text="To add new product press scan barcode"
+        android:textSize="18sp" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:id="@+id/barcode"
+        android:text="Ready"
+        android:textSize="18sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGet"
+        android:text="Get best price"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proName"
+        android:text="Product name:"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:text=""
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proPrice"
+        android:text="Product price:"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrice"
+        android:text=""
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proDesc"
+        android:text="Product Description:"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesc"
+        android:text=""
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
