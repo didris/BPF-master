@@ -41,12 +41,13 @@ public class SearchByBarcode extends Activity {
         Button get=(Button) findViewById(R.id.get);
         get.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if(barcodeid.getText()=="6253501790077"){
+                String input = barcodeid.getText().toString();
+                if(input=="6253501790077"){
                     txtName.setText("Nestle water", TextView.BufferType.EDITABLE);
                     txtPrice.setText("2", TextView.BufferType.EDITABLE);
                     txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
                 }
-                else if (barcodeid.getText()=="5449000096258"){
+                else if (input=="5449000096258"){
                     txtName.setText("Jericho water", TextView.BufferType.EDITABLE);
                     txtPrice.setText("5", TextView.BufferType.EDITABLE);
                     txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
@@ -54,6 +55,9 @@ public class SearchByBarcode extends Activity {
                 else{
                     Toast.makeText(getApplicationContext(), "Please scan product's barcode",
                             Toast.LENGTH_LONG).show();
+                    txtName.setText("Jericho water", TextView.BufferType.EDITABLE);
+                    txtPrice.setText("5", TextView.BufferType.EDITABLE);
+                    txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
                 }
 
             }
