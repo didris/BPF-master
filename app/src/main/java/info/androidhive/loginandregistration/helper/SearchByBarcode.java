@@ -28,7 +28,7 @@ public class SearchByBarcode extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_scan_barcode);
+        setContentView(R.layout.activity_search_by_barcode);
         HandleClick hc = new HandleClick();
         //  findViewById(R.id.butQR).setOnClickListener(hc);
         findViewById(R.id.butProd).setOnClickListener(hc);
@@ -45,15 +45,11 @@ public class SearchByBarcode extends Activity {
         public void onClick(View arg0) {
             Intent intent = new Intent("com.google.zxing.client.android.SCAN");
             switch(arg0.getId()){
-            /*    case R.id.butQR:
-                    intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
-                    break;*/
+
                 case R.id.butProd:
                     intent.putExtra("SCAN_MODE", "PRODUCT_MODE");
                     break;
-              /*  case R.id.butOther:
-                    intent.putExtra("SCAN_FORMATS", "CODE_39,CODE_93,CODE_128,DATA_MATRIX,ITF,CODABAR");
-                    break;*/
+
             }
             startActivityForResult(intent, 0);    //Barcode Scanner to scan for us
         }
@@ -65,6 +61,7 @@ public class SearchByBarcode extends Activity {
             if (resultCode == RESULT_OK) {
                 tvStatus.setText(intent.getStringExtra("SCAN_RESULT_FORMAT"));
                 tvResult.setText(intent.getStringExtra("SCAN_RESULT"));
+                check();
             } else if (resultCode == RESULT_CANCELED) {
                 tvStatus.setText("Press a button to start a scan.");
                 tvResult.setText("Scan cancelled.");
@@ -77,7 +74,11 @@ public class SearchByBarcode extends Activity {
             txtPrice.setText("2");
             txtDesc.setText("Good for health");
         }
-    }
-
+        else if (barcodeid.getText()=="5449000096258"){
+            txtName.setText("Jericho water");
+            txtPrice.setText("5");
+            txtDesc.setText("Good for health");
+        }
+        }
 
 }
