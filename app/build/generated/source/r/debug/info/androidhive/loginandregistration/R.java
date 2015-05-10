@@ -1752,7 +1752,6 @@ containing a value of this type.
         public static final int btnAddNewCategory=0x7f090059;
         public static final int btnCreateProduct=0x7f090057;
         public static final int btnDelete=0x7f090077;
-        public static final int btnGet=0x7f09006b;
         public static final int btnGo=0x7f09007c;
         public static final int btnLinkToLoginScreen=0x7f090069;
         public static final int btnLinkToRegisterScreen=0x7f090061;
@@ -1782,6 +1781,7 @@ containing a value of this type.
         public static final int end=0x7f090015;
         public static final int expand_activities_button=0x7f090037;
         public static final int expanded_menu=0x7f09003d;
+        public static final int get=0x7f09006b;
         public static final int grayscale=0x7f090031;
         public static final int holo_dark=0x7f090024;
         public static final int holo_light=0x7f090025;
