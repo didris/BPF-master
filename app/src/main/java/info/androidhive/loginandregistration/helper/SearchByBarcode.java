@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.androidhive.JSONParser;
+import com.example.bpf.JSONParser;
 
 import info.androidhive.loginandregistration.R;
 
@@ -42,22 +42,23 @@ public class SearchByBarcode extends Activity {
         get.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String input = barcodeid.getText().toString();
-                if(input=="6253501790077"){
+                if (input.equals("5449000096258")) {
                     txtName.setText("Nestle water", TextView.BufferType.EDITABLE);
                     txtPrice.setText("2", TextView.BufferType.EDITABLE);
                     txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
                 }
-                else if (input=="5449000096258"){
+                else if (input.equals("544900009625")) {
                     txtName.setText("Jericho water", TextView.BufferType.EDITABLE);
                     txtPrice.setText("5", TextView.BufferType.EDITABLE);
                     txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
                 }
-                else{
+                else if (input.equals("Scan cancelled.")||input.equals("")) {
                     Toast.makeText(getApplicationContext(), "Please scan product's barcode",
                             Toast.LENGTH_LONG).show();
-                    txtName.setText("Jericho water", TextView.BufferType.EDITABLE);
-                    txtPrice.setText("5", TextView.BufferType.EDITABLE);
-                    txtDesc.setText("Good for health", TextView.BufferType.EDITABLE);
+
+                } else {
+                    Toast.makeText(getApplicationContext(), "Sorry, this product isn't available",
+                            Toast.LENGTH_LONG).show();
                 }
 
             }

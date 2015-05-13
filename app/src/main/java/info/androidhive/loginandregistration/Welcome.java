@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.androidhive.Categories.CategoryMain;
-import com.example.androidhive.MainScreenActivity;
+import com.example.bpf.Categories.CategoryMain;
+import com.example.bpf.MainScreenActivity;
 
 import java.util.HashMap;
 

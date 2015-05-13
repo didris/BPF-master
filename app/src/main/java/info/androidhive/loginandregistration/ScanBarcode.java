@@ -10,8 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.androidhive.AllProductsActivity;
-import com.example.androidhive.JSONParser;
+import com.example.bpf.AllProductsActivity;
+import com.example.bpf.JSONParser;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;

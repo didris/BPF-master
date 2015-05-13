@@ -1,4 +1,4 @@
-package com.example.androidhive.Categories;
+package com.example.bpf.Categories;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

@@ -55,19 +55,19 @@
             android:label="@string/app_name"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.example.androidhive.AllProductsActivity"
+            android:name="com.example.bpf.AllProductsActivity"
             android:label="@string/title_activity_all_products" >
         </activity>
         <activity
-            android:name="com.example.androidhive.EditProductActivity"
+            android:name="com.example.bpf.EditProductActivity"
             android:label="@string/title_activity_edit_product" >
         </activity>
         <activity
-            android:name="com.example.androidhive.MainScreenActivity"
+            android:name="com.example.bpf.MainScreenActivity"
             android:label="@string/title_activity_main_screen" >
         </activity>
         <activity
-            android:name="com.example.androidhive.NewProductActivity"
+            android:name="com.example.bpf.NewProductActivity"
             android:label="@string/title_activity_new_product" >
         </activity>
         <activity
@@ -91,7 +91,7 @@
             android:label="@string/title_activity_search_by_barcode" >
         </activity>
         <activity
-            android:name="com.example.androidhive.Categories.CategoryMain"
+            android:name="com.example.bpf.Categories.CategoryMain"
             android:label="@string/title_activity_category_main" >
         </activity>
     </application>
