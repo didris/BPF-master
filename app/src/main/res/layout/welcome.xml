@@ -48,18 +48,6 @@
             android:onClick="sendMessage2"/>
 
 
-
-        <Button
-            android:id="@+id/btnLogout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
-            android:background="@color/btn_logut_bg"
-            android:text="@string/btn_logout"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="15dp" />
-
         <Button
             android:id="@+id/btnGo"
             android:layout_width="fill_parent"
@@ -71,17 +59,18 @@
             android:textColor="@color/white"
             android:textSize="15dp"
             android:onClick="sendMessage"/>
+
+
         <Button
-            android:id="@+id/btnAddNewCategory"
+            android:id="@+id/btnLogout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
             android:background="@color/btn_logut_bg"
-            android:text="Add category"
+            android:text="@string/btn_logout"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="15dp"
-            android:onClick="sendMessage3"/>
+            android:textSize="15dp" />
 
 
 

@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.SQLiteHandler;
 
 public class NewProductActivity extends Activity {
     // Progress Dialog
@@ -28,6 +29,7 @@ public class NewProductActivity extends Activity {
     EditText inputName;
     EditText inputPrice;
     EditText inputDesc;
+    private SQLiteHandler db;
     // url to create new product
     private static String url_create_product = "http://bestpricefinder.eb2a.com/android_connect/create_product.php";
     // url to create new product
@@ -38,8 +40,11 @@ public class NewProductActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_product);
+        // SqLite database handler
+        db = new SQLiteHandler(getApplicationContext());
 
         HandleClick hc = new HandleClick();
         findViewById(R.id.butProd).setOnClickListener(hc);
@@ -48,6 +53,8 @@ public class NewProductActivity extends Activity {
         inputPrice = (EditText) findViewById(R.id.inputPrice);
         inputDesc = (EditText) findViewById(R.id.inputDesc);
          barcodeid=(TextView)findViewById(R.id.tvResult);
+
+
         // Create button
         Button btnCreateProduct = (Button) findViewById(R.id.btnCreateProduct);
         // button click event

@@ -24,7 +24,7 @@ public class MainScreenActivity extends Activity{
         // Buttons
         btnViewProducts = (Button) findViewById(R.id.btnViewProducts);
         btnNewProduct = (Button) findViewById(R.id.btnCreateProduct);
-        btnShowMap= (Button) findViewById(R.id.ShowMap);
+      //  btnShowMap= (Button) findViewById(R.id.ShowMap);
 
         // view products click event
         btnViewProducts.setOnClickListener(new View.OnClickListener() {

@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import com.example.bpf.Categories.CategoryMain;
 import com.example.bpf.MainScreenActivity;
 
 import java.util.HashMap;
@@ -50,7 +48,7 @@ public class Welcome extends Activity {
 
         // Displaying the user details on the screen
         txtName.setText(name);
-        txtEmail.setText(email);
+        //txtEmail.setText(email);
 
         // Logout button click event
         btnLogout.setOnClickListener(new View.OnClickListener() {
@@ -85,11 +83,6 @@ public class Welcome extends Activity {
     public void sendMessage2(View view)
     {
         Intent intent = new Intent(Welcome.this, SearchByBarcode.class);
-        startActivity(intent);
-    }
-    public void sendMessage3(View view)
-    {
-        Intent intent = new Intent(Welcome.this, CategoryMain.class);
         startActivity(intent);
     }
 }

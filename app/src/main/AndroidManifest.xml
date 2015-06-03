@@ -90,10 +90,6 @@
             android:name=".helper.SearchByBarcode"
             android:label="@string/title_activity_search_by_barcode" >
         </activity>
-        <activity
-            android:name="com.example.bpf.Categories.CategoryMain"
-            android:label="@string/title_activity_category_main" >
-        </activity>
     </application>
 
 </manifest>
